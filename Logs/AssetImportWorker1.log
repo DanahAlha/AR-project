@@ -1,0 +1,462 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.5f1 (9674261d40ee) revision 9860134'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16088 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/WinDows/MetathonMenu
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51031
+Successfully changed project path to: C:/Users/WinDows/MetathonMenu
+C:/Users/WinDows/MetathonMenu
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18316] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 426771393 [EditorId] 426771393 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1R2H21T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18316] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 426771393 [EditorId] 426771393 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1R2H21T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 21.07 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 3.99 ms.
+Initialize engine version: 2022.3.5f1 (9674261d40ee)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/WinDows/MetathonMenu/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   30.0.15.1274
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015422 seconds.
+- Loaded All Assemblies, in  0.558 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 485 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.911 seconds
+Domain Reload Profiling: 1468ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (97ms)
+	LoadAllAssembliesAndSetupDomain (240ms)
+		LoadAssemblies (142ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (229ms)
+			TypeCache.Refresh (228ms)
+				TypeCache.ScanAssembly (209ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (912ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (824ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (650ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (117ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.980 seconds
+Refreshing native plugins compatible for Editor in 5.27 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.977 seconds
+Domain Reload Profiling: 1955ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (678ms)
+		LoadAssemblies (425ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (343ms)
+			TypeCache.Refresh (308ms)
+				TypeCache.ScanAssembly (290ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (978ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (746ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (570ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 10.25 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Unloading 4960 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (0.8 MB). Loaded Objects now: 5721.
+Memory consumption went from 215.2 MB to 214.4 MB.
+Total: 11.723600 ms (FindLiveObjects: 1.313100 ms CreateObjectMapping: 0.971300 ms MarkObjects: 7.873800 ms  DeleteObjects: 1.561900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.86 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (0.8 MB). Loaded Objects now: 5721.
+Memory consumption went from 109.5 MB to 108.7 MB.
+Total: 8.174900 ms (FindLiveObjects: 0.804500 ms CreateObjectMapping: 0.538400 ms MarkObjects: 6.040700 ms  DeleteObjects: 0.788500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10515.835471 seconds.
+  path: Assets/dallat and tamr/3 dallat.fbx
+  artifactKey: Guid(b088e227aed42dc4fa5e8ba1930ecb24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/dallat and tamr/3 dallat.fbx using Guid(b088e227aed42dc4fa5e8ba1930ecb24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7267bfbd90df18672e6f074a278773cc') in 0.357808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/dallat and tamr/date.jpg
+  artifactKey: Guid(6a41edefbee903e4894ecbfcfa7ad243) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/dallat and tamr/date.jpg using Guid(6a41edefbee903e4894ecbfcfa7ad243) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d342b1fb13667d55b544051844a7370') in 0.240267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/food/coffee_cup_fbx 1.fbx
+  artifactKey: Guid(18d297839c5103443b93eb0d4ea81913) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/food/coffee_cup_fbx 1.fbx using Guid(18d297839c5103443b93eb0d4ea81913) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e36bdf8556407c22652a55d3a4103614') in 0.042866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.002746 seconds.
+  path: Assets/Croissants_Pack/Textures/croissant_03_L1_Normal.tga
+  artifactKey: Guid(8c4075a636289aa4ca9bfc6c96dc0b8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Croissants_Pack/Textures/croissant_03_L1_Normal.tga using Guid(8c4075a636289aa4ca9bfc6c96dc0b8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12b7a30d7254d5c0e0ced2818b2ddb35') in 0.136505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0145c2d95c43411bf3cef23147e141a6') in 0.027543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Croissants_Pack/Meshes/croissant_02_L0.fbx
+  artifactKey: Guid(a244b0779a678634ca178a9645a84628) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Croissants_Pack/Meshes/croissant_02_L0.fbx using Guid(a244b0779a678634ca178a9645a84628) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75feabe81e9eb69447521502c8e89646') in 0.055272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/dallat and tamr/menuMeta/Directional Light.prefab
+  artifactKey: Guid(4bbec29e550308d498440ecd2b5cd225) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/dallat and tamr/menuMeta/Directional Light.prefab using Guid(4bbec29e550308d498440ecd2b5cd225) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dae5adacf5734b813a252eead9d6f087') in 0.160232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Croissants_Pack/Preview_scene/preview/LightingData.asset
+  artifactKey: Guid(a11ca3d2faaf2374daaea39a2220819a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Croissants_Pack/Preview_scene/preview/LightingData.asset using Guid(a11ca3d2faaf2374daaea39a2220819a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cd7039bce4808253adb614df93b1c96') in 0.061749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/AK STUDIO ART/Coffee Cup/Models/Materials/Coffee_Cup.mat
+  artifactKey: Guid(0f0ab040badb9b2489d39002724c57a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AK STUDIO ART/Coffee Cup/Models/Materials/Coffee_Cup.mat using Guid(0f0ab040badb9b2489d39002724c57a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd536897c75d5afbb696e7a9050486835') in 0.515621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/food/uploads_files_2616482_Plate 1.fbx
+  artifactKey: Guid(1afcface976e80945baa662e0e0f9819) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/food/uploads_files_2616482_Plate 1.fbx using Guid(1afcface976e80945baa662e0e0f9819) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2df03c369efe092359d133ab9976163a') in 0.082462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Croissants_Pack/Materials/croissant_01_L1.mat
+  artifactKey: Guid(19d2bc5930bc48c489135daf20e0928e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Croissants_Pack/Materials/croissant_01_L1.mat using Guid(19d2bc5930bc48c489135daf20e0928e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4556f5ebd3cc2d555cd86a36979ad39c') in 0.458732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Materials/HongKongStyleWaffle_Diffuse.mat
+  artifactKey: Guid(2296042feda63894b964a1832ae433a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/HongKongStyleWaffle_Diffuse.mat using Guid(2296042feda63894b964a1832ae433a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d1f6b01d45c48475cfdddc4b6737473') in 0.070691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/food/Materials/cof_bump.mat
+  artifactKey: Guid(b4be6f0186374b449960fbe56f91b661) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/food/Materials/cof_bump.mat using Guid(b4be6f0186374b449960fbe56f91b661) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1aba6b68893271733018180422b6ed44') in 0.078685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/food/2.jpg
+  artifactKey: Guid(ff5fc33b7a2525a429dbec80c48321f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/food/2.jpg using Guid(ff5fc33b7a2525a429dbec80c48321f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'abc1539dffc4673e405c57bdac031e3b') in 0.136164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Settings/URP-Performant.asset
+  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-Performant.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b085502a70c64e45a58a8e88ba536c93') in 0.139485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Croissants_Pack/Textures/croissant_01_L0_Normal.tga
+  artifactKey: Guid(f82b1ecaabf319c44bfad46ae1738dec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Croissants_Pack/Textures/croissant_01_L0_Normal.tga using Guid(f82b1ecaabf319c44bfad46ae1738dec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c7bfe69ce2f4be0379e4005be245f65') in 0.178611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/food/Donut.fbx
+  artifactKey: Guid(5f168f4b91eee734fa03685286d6cc06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/food/Donut.fbx using Guid(5f168f4b91eee734fa03685286d6cc06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7b644c475a33bd7288ef6fdbc1cfb4c') in 0.133121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 953
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/food/coffee_cup_fbx.fbx
+  artifactKey: Guid(4ba42907c22c52d4abae4f2c9f31d4d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/food/coffee_cup_fbx.fbx using Guid(4ba42907c22c52d4abae4f2c9f31d4d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d0cdbfc9d597377cb42bea89f05ccaf') in 0.097281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/food/uploads_files_3915913_Croissant.fbx
+  artifactKey: Guid(1c5161b1281d42f40a1dcef62352eb79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/food/uploads_files_3915913_Croissant.fbx using Guid(1c5161b1281d42f40a1dcef62352eb79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5fde979ae4f35068ac19f1582809b986') in 0.404728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 476
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/AK STUDIO ART/Coffee Cup/Scenes/Example.unity
+  artifactKey: Guid(af2e63a4b56ec70448dec36ae561434d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AK STUDIO ART/Coffee Cup/Scenes/Example.unity using Guid(af2e63a4b56ec70448dec36ae561434d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '755a52c7921d8746c6d02595f2b29b72') in 0.026743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Croissants_Pack/Textures/croissant_02_L1_MetallicSmoothness.tga
+  artifactKey: Guid(d1619aa2fbc081d449e13fd0bc917934) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Croissants_Pack/Textures/croissant_02_L1_MetallicSmoothness.tga using Guid(d1619aa2fbc081d449e13fd0bc917934) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8fb447a086e50faae7021c5b2ade60f') in 0.116063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Croissants_Pack/Meshes/croissant_02_col.fbx
+  artifactKey: Guid(f05c5a652036b6c448aadbcf71acea66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Croissants_Pack/Meshes/croissant_02_col.fbx using Guid(f05c5a652036b6c448aadbcf71acea66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a2a98d5eaed9e6ef1398eadbcd68fd0') in 0.043743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Croissants_Pack/Textures/croissant_01_L1_AO.tga
+  artifactKey: Guid(96b2e28ff36a25344899177343d3e344) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Croissants_Pack/Textures/croissant_01_L1_AO.tga using Guid(96b2e28ff36a25344899177343d3e344) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1582cabc9be59bc6ecff5141ce062362') in 0.140810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Croissants_Pack/Textures/croissant_03_L0_AO.tga
+  artifactKey: Guid(d7fa09e133f7e124c82cdaa89047e581) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Croissants_Pack/Textures/croissant_03_L0_AO.tga using Guid(d7fa09e133f7e124c82cdaa89047e581) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '500b4a92089faf02803a317ebc5aba48') in 0.124225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Croissants_Pack/Materials/croissant_03_L0.mat
+  artifactKey: Guid(28114547cc61c9544b28507d83ea4153) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Croissants_Pack/Materials/croissant_03_L0.mat using Guid(28114547cc61c9544b28507d83ea4153) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db5a58906c861e654a8f6f57c81bfaca') in 0.342033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/food/New Material.mat
+  artifactKey: Guid(c618b5afcd1114e4ebfad53bc358bcc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/food/New Material.mat using Guid(c618b5afcd1114e4ebfad53bc358bcc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04e460ef0f1b5e78e3f5b86d824ab251') in 0.065650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Croissants_Pack/Materials/background.mat
+  artifactKey: Guid(7bc3bb95ca99220469cc8d0238679bf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Croissants_Pack/Materials/background.mat using Guid(7bc3bb95ca99220469cc8d0238679bf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '15718eadb043bda2d54c39c51c8a2a6d') in 0.078961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
